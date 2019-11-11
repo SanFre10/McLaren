@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <title>McLaren 720s</title>
+</head>
+
+<body style="background-color: rgb(228, 228, 228);">
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar" href="index.html">
+            <img src="imagenes/mclaren_logo.png" class="d-inline-block" width="200" height="70">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navbar-brand" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Catalogo</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="720s.html">McLaren 720s</a>
+                        <a class="dropdown-item" href="600lt.html">McLaren 600lt</a>
+                        <a class="dropdown-item" href="570s.html">McLaren 570s</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-brand" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-lg-8 col-md-12 text-center" style="background-color:white;">
+            <img src="Imagenes/570s/red.png" width="100%" class="image">
+            <h2 class="d-block d-md-none">Mclaren 570s</h2>
+            <hr class="d-md-none d-block">
+        </div>
+        <div class="colors container-fluid d-block d-md-none">
+            <h4>Colores disponibles</h4><br>
+            <ul class="list-group-horizontal">
+                <li class="list-group-item rounded-circle d-inline color" style="background-color:red;" onclick="changeColor('570s','red')"></li>
+                <li class="list-group-item rounded-circle d-inline color" style="background-color:orange;" onclick="changeColor('570s','orange')"></li>
+                <li class="list-group-item rounded-circle d-inline color" style="background-color:blue; " onclick="changeColor('570s','blue')"></li>
+                <li class="list-group-item rounded-circle d-inline color" style="background-color:black; " onclick="changeColor('570s','black')"></li>
+                <li class="list-group-item rounded-circle d-inline color" style="background-color:yellow; " onclick="changeColor('570s','yellow')"></li>
+            </ul>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <div class="descripcion">
+                <h2 class="text-center  d-none d-md-block">Mclaren 570s</h2>
+                <hr style="color:red;">
+                <div>
+                    <h3>Motor:</h3>
+                    <h5>V8 3.8l que produce 570 HP</h5>
+                </div>
+                <div>
+                    <h3>0-100 KPH:</h3>
+                    <h5>3.2s</h5>
+                </div>
+                <div>
+                    <h3>Baúl:</h3>
+                    <h5>121l</h5>
+                </div>
+                <div>
+                    <h3>Plazas:</h3>
+                    <h5>2</h5>
+                </div>
+                <div>
+                    <h3>Precio:</h3>
+                    <h5>US$ 180.000</h5>
+                </div>
+                <hr class="d-none d-md-block">
+            </div>
+            <div class="colors container-fluid d-none d-md-block">
+                <h4>Colores disponibles</h4><br>
+                <ul class="list-group-horizontal">
+                    <li class="list-group-item rounded-circle d-inline color" style="background-color:red;" onclick="changeColor('570s','red')"></li>
+                    <li class="list-group-item rounded-circle d-inline color" style="background-color:orange;" onclick="changeColor('570s','orange')"></li>
+                    <li class="list-group-item rounded-circle d-inline color" style="background-color:blue; " onclick="changeColor('570s','blue')"></li>
+                    <li class="list-group-item rounded-circle d-inline color" style="background-color:black; " onclick="changeColor('570s','black')"></li>
+                    <li class="list-group-item rounded-circle d-inline color" style="background-color:yellow; " onclick="changeColor('570s','yellow')"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="lib/jquery/jquery-3.3.1.min.js "></script>
+    <script src="lib/popper/popper.min.js "></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js "></script>
+</body>
+
+</html>

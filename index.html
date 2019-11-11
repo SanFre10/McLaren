@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts/script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans&display=swap" rel="stylesheet">
+    <title>Concesionaria</title>
+</head>
+
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <a class="navbar" href="index.html">
+            <img src="imagenes/mclaren_logo.png" class="d-inline-block" width="200" height="70">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle navbar-brand" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">Catálogo</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="720s.html">McLaren 720s</a>
+                        <a class="dropdown-item" href="600lt.html">McLaren 600lt</a>
+                        <a class="dropdown-item" href="570s.html">McLaren 570s</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link navbar-brand" href="contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="navigation"></div>
+    <main>
+        <div>
+            <div class="container text-center">
+                <h2>Concesionaria McLaren</h2>
+                <p>Nuestro catálogo actual</p>
+            </div>
+            <hr>
+            <!-- Carousel -->
+            <div id="myCarousel" class="carousel slide carousel-fade d-none d-md-block" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <a href="720s.html"><img src="Imagenes/720s/orange.png" width="100%;" class="img-fluid "></a>
+                            <div class="carousel-caption">
+                                <h2 class="text-dark">McLaren 720s</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <a href="600lt.html"><img src="Imagenes/600lt/orange.png" width="100%;" class="img-fluid"></a>
+                            <div class="carousel-caption">
+                                <h2 class="text-dark">McLaren 600lt</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <a href="570s.html"><img src="Imagenes/570s/orange.png" width="100%;" class="img-fluid"></a>
+                            <div class="carousel-caption">
+                                <h2 class="text-dark">McLaren 570s</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon p-5" style="background-color:orange;" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon p-5" style="background-color:orange;" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+            <!-- Fotos en tamaño < md -->
+            <div class="container d-md-none">
+                <div class="galery">
+                    <div class="foto m-2 container">
+                        <a href="720s.html"><img src="Imagenes/720s/orange.png" width="100%;" class="img-thumbnail img-fluid "></a>
+                    </div>
+                    <div class="foto m-2 container">
+                        <a href="600lt.html"><img src="Imagenes/600lt/orange.png" width="100%;" class="img-thumbnail img-fluid"></a>
+                    </div>
+                    <div class="foto m-2 container">
+                        <a href="570s.html"><img src="Imagenes/570s/orange.png" width="100%;" class="img-thumbnail img-fluid"></a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center">¿ Querés comprar o alquilar alguno de estos autos ? <a href="contacto.html">CONTACTÁNOS</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 text-center p-5">
+                <img src="Imagenes/huergo_logo.png" style="width:30%">
+                <h3>Instituto Industrial Luis A. Huergo</h3><br><br>
+                <h4>Santiago Frega</h4>
+            </div>
+            <div class="col-6 container d-none d-md-block ">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1341.2345986326816!2d-58.37478383924356!3d-34.617159269697446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccb2af59c9b6d%3A0xa54886cb2d329691!2sInstituto%20Industrial%20Luis%20A.%20Huergo!5e0!3m2!1ses!2sar!4v1572881937201!5m2!1ses!2sar"
+                    width="95%" height="85%" frameborder="0" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- JavaScript -->
+    <script src="lib/jquery/jquery-3.3.1.min.js"></script>
+    <script src="lib/popper/popper.min.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
