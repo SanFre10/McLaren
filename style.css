@@ -35,18 +35,19 @@ body {
     text-align: center;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    padding: 2%;
-    width: 100%;
+    padding: 1%;
+
 }
 
 .color {
-    margin: 2%;
+    margin:1%;
 }
 
 .color:hover {
     opacity: 0.5;
     cursor: pointer;
 }
+
 
 .descripcion {
     background-color: white;
