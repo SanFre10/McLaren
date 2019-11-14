@@ -28,6 +28,7 @@ body {
 .image {
     background-color: white;
     border-radius: 15px;
+    width: 100%;
 }
 
 .colors {
@@ -63,6 +64,9 @@ body {
 
 .mapa {
     margin-top: 5%;
+    border-style: none;
+    width:95% ;
+    height:85%;
 }
 
 nav,
